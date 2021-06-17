@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+    <title>First</title>
+    <meta name="description" content="Page Description Here" />
+    <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1" />
+
+    <style type="text/css">
+        body {
+            color: aqua;
+        }
+    </style>
+
+    <script>
+        function MyFun() {
+            var x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+</Head>
+
+<body>
+    <h1>Hello World<br></h1>
+    <input type="text" id="fname" onchange="MyFun()">
+</body>
+
+</html>
