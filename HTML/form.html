@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <title>Form</title>
+  <meta charset="utf-8">
+</head>
+
+
+<body>
+
+  <form name="employment" action="send.php" method="POST+">
+    <table width="600" border="0" cellspacing="3" cellpadding="0" align="center">
+      <tr>
+        <td>Employment Application</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>First Name:</td>
+        <td><input type="text" name="fname" maxlength="30" /></td>
+      </tr>
+      <tr>
+        <td>Last Name:</td>
+        <td><input type="text" name="lname" maxlength="20" /></td>
+      </tr>
+      <tr>
+        <td>Position:</td>
+        <td>
+          <select name="position">
+
+            <option value="AC">Manager</option>
+            <option value="AT">Accountent</option>
+            <option value="AD">Adminstration</option>
+            <option value="SP">Supervisor</option>
+
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Experience Level</td>
+        <td>
+          <select>
+            <option value="">0</option>
+            <option value="">1-5</option>
+            <option value="">5-10</option>
+            <option value="">10+</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Job Type</td>
+        <td>
+          <input type="radio" name="ra" value="tf" />Full Time
+          <input type="radio" name="ra" value="tp" />Part Time
+          <input type="radio" name="ra" value="tc" />Contract
+        </td>
+      </tr>
+      <tr>
+        <td>Language</td>
+        <td>
+          <input type="checkbox" name="c2" />C++
+          <input type="checkbox" name="c1" />C
+          <input type="checkbox" name="j" />Java
+          <input type="checkbox" name="p" />Python
+        </td>
+      </tr>
+      <tr>
+        <td>Address</td>
+        <td>
+          <textarea name="adress" cols="45" rows="6"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <input type="submit" name="submit" value="Submit" />
+          <input type="reset" name="reset" value="Reset" />
+        </td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+
+</html>
