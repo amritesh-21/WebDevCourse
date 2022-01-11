@@ -1,0 +1,17 @@
+Body {
+  background: pink;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aqua;
+}
+td {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blueboldtext {
+  font-size: 50px;
+  font-weight: bold;
+  color: blue;
+}
