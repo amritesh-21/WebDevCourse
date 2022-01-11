@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Script</title>
+</head>
+<body>
+
+    <center>
+        <div>
+            <p id="a1" style="color: aqua;" >Old Text</p>
+            <button type="button" onclick="exe()">Click Here</button>
+        </div>
+
+    </center>
+    
+    
+
+    <script>
+        
+        document.write('Hello');
+        console.log('Hey');
+        function exe()
+        {
+            document.getElementById("a1").innerHTML="New Text";
+        }
+    </script>
+</body>
+</html>
